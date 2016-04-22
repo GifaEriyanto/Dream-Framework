@@ -1,0 +1,34 @@
+{
+  "name": "Dream Framework",
+  "authors": [
+    "Daemon"
+  ],
+  "description": "",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules"
+  ],
+  "keywords": [
+    "material",
+    "design",
+    "front-end",
+    "css",
+    "html",
+    "js",
+    "css-framework"
+  ],
+  "license": "MIT",
+  "main": [
+    "assets/sass/dream.scss",
+    "assets/js/dream.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
+}
