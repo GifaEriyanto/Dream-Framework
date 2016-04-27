@@ -49,3 +49,4 @@ Temporary Items
 #Folder
 bower_components/
 node_modules/
+.sass-cache/
