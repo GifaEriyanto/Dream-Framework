@@ -1,0 +1,15 @@
+.dream {
+
+	.bg-fill {
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+		background-position: center !important;
+		&-repeat {
+			background-repeat: repeat !important;
+		}
+		&-top {
+			background-position: top !important;
+		}
+	}
+
+}

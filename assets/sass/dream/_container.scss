@@ -1,0 +1,16 @@
+.dream {
+
+	.container {
+		max-width: 1170px;
+		margin: auto;
+		padding: {
+			left: 15px;
+			right: 15px;
+		}
+		&.container-small {
+			max-width: 960px;
+		}
+	}
+
+
+}

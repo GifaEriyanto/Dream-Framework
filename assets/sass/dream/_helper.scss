@@ -1,0 +1,54 @@
+.dream {
+
+	.clear {
+		clear: both;
+	}
+
+	// Align
+	.v-center {
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.hard-center {
+		@extend .v-center;
+		justify-content: center;
+	}
+
+	// Font Weight
+	.bold {
+		font-weight: bold;
+	}
+
+	.pre {
+		padding: 10px;
+		margin-top: 0;
+		margin-bottom: 0;
+		word-break: normal;
+		white-space: nowrap;
+		background-color: transparent;
+		border: 0;
+		background: #272822;
+		color: #fff;
+	}
+
+	.code {
+		padding: 5px;
+		background: #eee;
+	}
+
+	.section {
+		clear: both;
+		width: 100%;
+		padding: {
+			top: 15px;
+			bottom: 15px;
+		}
+	}
+
+}

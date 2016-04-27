@@ -10,12 +10,92 @@
 <body>
 
 	<div class="dream">
-		
-		
+
+		<div class="container container-small">
+
+			<div class="col-12 row-1"></div>
+
+			<div id="grid">
+			
+				<h1>Grid</h1>
+
+				<div class="col-12">	
+					<p>Dream Framework is available for responsive grid system. Default grid is using class <code class="code">.col-*</code>. If you want to make custom view for all device, just give class <code class="code">.mobile-*</code> for mobile view, <code class="code">.tablet-*</code> for tablet view, <code class="code">.desktop-*</code> for desktop view (767px - 1440px), and <code class="code">.large-*</code> for large desktop resolution (> 1440px);</p>
+					<pre class="pre">
+						<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="col-*"</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+					</pre>
+					<br>
+				</div>
+				
+				<p>Column 12</p>
+				<div class="col-12 row-1 hard-center" bg-color="#eee">.col-12</div>
+
+				<div class="clear"></div>
+
+				<p>Column 6</p>
+				<div class="col-6 row-1 hard-center" bg-color="#ddd">.col-6</div>
+				<div class="col-6 row-1 hard-center" bg-color="#eee">.col-6</div>
+
+				<div class="clear"></div>
+
+				<p>Column 3</p>
+				<div class="col-3 row-1 hard-center" bg-color="#eee">.col-3</div>
+				<div class="col-3 row-1 hard-center" bg-color="#ddd">.col-3</div>
+				<div class="col-3 row-1 hard-center" bg-color="#eee">.col-3</div>
+				<div class="col-3 row-1 hard-center" bg-color="#ddd">.col-3</div>
+
+				<div class="clear"></div>
+
+				<p>Column 2</p>
+				<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
+				<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
+				<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
+				<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
+				<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
+				<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
+
+			</div>
+
+			<div class="col-12 row-1"></div>
+
+			<div id="bg">
+				
+				<h1>Background</h1>
+
+				<div class="section">
+					<div class="col-12 row-5 bg-fill hard-center bold" bg-image="assets/images/bg.jpg">
+						<span bg-color="rgba(0,0,0,0)" color="#fff">Background Image</span>
+					</div>
+					<div class="col-12">	
+						<p>Below is code for make block with background image. Just type <code class="code">bg-image="<i>image_path</i>"</code> and give class <code class="code">bg-fill</code> for make image view better.</p>
+						<pre class="pre">
+							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="bg-fill" bg-image="..."</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+						</pre>
+					</div>
+				</div>
+
+				<div class="section">
+					<div class="col-12 row-5 hard-center bold" bg-color="#3498db">
+						<span bg-color="#3498db" color="#fff">Background Color</span>
+					</div>
+					
+					<div class="col-12">
+						<p>And below is code for make block with background color. Just type <code class="code">bg-color="<i>your_color</i>"</code>. This code is support all color types like hex, rgb, rgba, or everything value that available in CSS.</p>
+						<pre class="pre">
+							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51"> bg-color="..."</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+						</pre>
+					</div>
+				</div>
+
+			</div>
+			
+			<div class="col-12 row-1"></div>
+
+		</div>
 
 	</div>
 
 	<!-- js for doc -->
-	<script src="assets/js/dream.min.js"></script>
+	<script src="assets/js/dream.js"></script>
 </body>
 </html>

@@ -1,7 +1,21 @@
-$i: 12;
-@while $i > 0 {
-	.col-xl-#{$i} {
-		width: calc(100% / 12 * $i);
+.dream {
+
+	$i: 12;
+	@while $i > 0 {
+		.col-#{$i} {
+			width: calc(100% / 12 * #{$i});
+			float: left;
+		}
+		$i: $i - 1;
 	}
-	$i: $i - 1;
+
+	$i: 100;
+	@while $i > 0 {
+		.row-#{$i} {
+			height: calc(50px * #{$i});
+			overflow: auto;
+		}
+		$i: $i - 1;
+	}
+
 }
