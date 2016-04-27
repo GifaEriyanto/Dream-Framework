@@ -25,6 +25,7 @@
 		font-weight: bold;
 	}
 
+	// HTML viewer
 	.pre {
 		padding: 10px;
 		margin-top: 0;
@@ -38,17 +39,9 @@
 	}
 
 	.code {
-		padding: 5px;
+		padding: 0px 3px;
 		background: #eee;
-	}
-
-	.section {
-		clear: both;
-		width: 100%;
-		padding: {
-			top: 15px;
-			bottom: 15px;
-		}
+		border-radius: 2px;
 	}
 
 }

@@ -1,5 +1,14 @@
 .dream {
 
+	.section {
+		clear: both;
+		width: 100%;
+		padding: {
+			top: 15px;
+			bottom: 15px;
+		}
+	}
+
 	$i: 12;
 	@while $i > 0 {
 		.col-#{$i} {

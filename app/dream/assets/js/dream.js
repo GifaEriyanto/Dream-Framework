@@ -11248,16 +11248,6 @@ window.Modernizr = (function( window, document, undefined ) {
 
 })(this, this.document);
 
-
-// Background Generator
-
-$(".bg").each(function() {
-	var bgColor = $(this).attr("bg-color");
-	$('.bg[bg-color="' + bgColor + '"]').css("background-color",bgColor);
-
-	var bgImage = $(this).attr("bg-image");
-	$('.bg[bg-image="' + bgImage + '"]').css("background-image","url(" + bgImage + ")");
-});
 $(".dream *").each(function() {
 
 	// Background Generator

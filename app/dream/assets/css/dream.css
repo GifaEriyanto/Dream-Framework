@@ -264,14 +264,9 @@ html, body {
   color: #fff;
 }
 .dream .code {
-  padding: 5px;
+  padding: 0px 3px;
   background: #eee;
-}
-.dream .section {
-  clear: both;
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  border-radius: 2px;
 }
 
 .dream .container {
@@ -284,6 +279,12 @@ html, body {
   max-width: 960px;
 }
 
+.dream .section {
+  clear: both;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .dream .col-12 {
   width: calc(100% / 12 * 12);
   float: left;
