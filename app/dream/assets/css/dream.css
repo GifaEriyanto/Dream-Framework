@@ -282,8 +282,6 @@ html, body {
 .dream .section {
   clear: both;
   width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 .dream .col-12 {
   width: calc(100% / 12 * 12);

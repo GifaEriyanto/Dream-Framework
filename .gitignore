@@ -50,3 +50,7 @@ Temporary Items
 bower_components/
 node_modules/
 .sass-cache/
+app/dream/assets/css/dream.css
+app/dream/assets/css/dream.min.css
+app/dream/assets/js/dream.js
+app/dream/assets/js/dream.min.js
