@@ -1,0 +1,27 @@
+.dream {
+
+	// Margin
+	$i: 10;
+	@while $i > 0 {
+		$x: $i * 5;
+		.m {
+			&-#{$x} {
+				margin: #{$x}px;
+			}
+			&-t-#{$x} {
+				margin-top: #{$x}px;
+			}
+			&-b-#{$x} {
+				margin-bottom: #{$x}px;
+			}
+			&-l-#{$x} {
+				margin-left: #{$x}px;
+			}
+			&-r-#{$x} {
+				margin-right: #{$x}px;
+			}
+		}
+		$i: $i - 1;
+	}
+
+}

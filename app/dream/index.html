@@ -20,52 +20,69 @@
 			
 				<h1>Grid</h1>
 
-				<div class="col-12">	
-					<p>Dream Framework is available for responsive grid system. Default grid is using class <code class="code">.col-*</code>. If you want to make custom view for all device, just give class <code class="code">.mobile-*</code> for mobile view, <code class="code">.tablet-*</code> for tablet view, <code class="code">.desktop-*</code> for desktop view (767px - 1440px), and <code class="code">.large-*</code> for large desktop resolution (> 1440px);</p>
+				<div class="wrapper">	
+					<p>Dream Framework is available for responsive grid system. Default grid is using class <code class="code">.col-*</code>. If you want to make custom view for all device, just give class <code class="code">.sm-*</code> for mobile view, <code class="code">.md-*</code> for tablet view, and <code class="code">.lg-*</code> for large desktop resolution (> 1440px);</p>
 					<pre class="pre">
 						<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="col-*"</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
 					</pre>
 					<br>
 				</div>
-				
-				<div class="section">
-					<p>Column 12</p>
-					<div class="col-12 row-1 hard-center" bg-color="#eee">.col-12</div>
+
+
+				<div id="grid-static">
+					<h2>Static Grid</h2>
+					
+					<div class="wrapper">
+						<p>Column 12</p>
+						<div class="col-12 row-1 hard-center" bg-color="#eee">.col-12</div>
+					</div>
+
+					<div class="wrapper">
+						<p>Column 6</p>
+						<div class="col-6 row-1 hard-center" bg-color="#ddd">.col-6</div>
+						<div class="col-6 row-1 hard-center" bg-color="#eee">.col-6</div>
+					</div>
+
+					<div class="wrapper">
+						<p>Column 3</p>
+						<div class="col-3 row-1 hard-center" bg-color="#eee">.col-3</div>
+						<div class="col-3 row-1 hard-center" bg-color="#ddd">.col-3</div>
+						<div class="col-3 row-1 hard-center" bg-color="#eee">.col-3</div>
+						<div class="col-3 row-1 hard-center" bg-color="#ddd">.col-3</div>
+					</div>
+
+					<div class="wrapper">
+						<p>Column 2</p>
+						<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
+						<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
+						<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
+						<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
+						<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
+						<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
+					</div>
 				</div>
 
-				<div class="section">
-					<p>Column 6</p>
-					<div class="col-6 row-1 hard-center" bg-color="#ddd">.col-6</div>
-					<div class="col-6 row-1 hard-center" bg-color="#eee">.col-6</div>
-				</div>
-
-				<div class="section">
-					<p>Column 3</p>
-					<div class="col-3 row-1 hard-center" bg-color="#eee">.col-3</div>
-					<div class="col-3 row-1 hard-center" bg-color="#ddd">.col-3</div>
-					<div class="col-3 row-1 hard-center" bg-color="#eee">.col-3</div>
-					<div class="col-3 row-1 hard-center" bg-color="#ddd">.col-3</div>
-				</div>
-
-				<div class="section">
-					<p>Column 2</p>
-					<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
-					<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
-					<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
-					<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
-					<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
-					<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
+				<div id="grid-responsive" class="wrapper p-t-20">
+					<h2>Responsive Grid</h2>
+					
+					<div class="wrapper">
+						<div class="col-4 lg-3 md-6 sm-12 row-1 hard-center" bg-color="#eee">
+							<span class="bold-default">.col-4</span>&nbsp;
+							<span class="bold-large">.large-3</span>&nbsp;
+							<span class="bold-tablet">.tablet-6</span>&nbsp;
+							<span class="bold-mobile">.mobile-12</span>
+						</div>
+					</div>
 				</div>
 
 			</div>
 
-			<div class="col-12 row-1"></div>
 
-			<div id="bg">
+			<div id="bg" class="wrapper p-t-50">
 				
 				<h1>Background</h1>
 
-				<div class="section">
+				<div class="wrapper">
 					<div class="col-12 row-5 bg-fill hard-center bold" bg-image="assets/images/bg.jpg">
 						<span bg-color="rgba(0,0,0,0)" color="#fff">Background Image</span>
 					</div>
@@ -77,7 +94,7 @@
 					</div>
 				</div>
 
-				<div class="section">
+				<div class="wrapper p-t-25">
 					<div class="col-12 row-5 hard-center bold" bg-color="#3498db">
 						<span bg-color="#3498db" color="#fff">Background Color</span>
 					</div>

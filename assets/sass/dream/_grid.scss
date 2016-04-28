@@ -1,10 +1,11 @@
 .dream {
 
-	.section {
+	.wrapper {
 		clear: both;
 		width: 100%;
 	}
 
+	// Columns
 	$i: 12;
 	@while $i > 0 {
 		.col-#{$i} {
@@ -14,6 +15,41 @@
 		$i: $i - 1;
 	}
 
+	$i: 12;
+	@while $i > 0 {
+		.lg-#{$i} {
+			@media (min-width: 1441px) {
+				width: calc(100% / 12 * #{$i});
+				float: left;
+			}
+		}
+		$i: $i - 1;
+	}
+
+	$i: 12;
+	@while $i > 0 {
+		.md-#{$i} {
+			@media (max-width: 992px) {
+				width: calc(100% / 12 * #{$i});
+				float: left;
+			}
+		}
+		$i: $i - 1;
+	}
+
+	$i: 12;
+	@while $i > 0 {
+		.sm-#{$i} {
+			@media (max-width: 414px) {
+				width: calc(100% / 12 * #{$i});
+				float: left;
+			}
+		}
+		$i: $i - 1;
+	}
+
+
+	// Rows
 	$i: 100;
 	@while $i > 0 {
 		.row-#{$i} {

@@ -1,3 +1,37 @@
 .docs p {
 	line-height: 24px;
+	margin: 0;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.bold-default {
+	font-weight: bold;
+}
+
+@media (min-width: 1441px) {
+	.bold-large {
+		font-weight: bold;
+	}
+	.bold-default, .bold-tablet, .bold-mobile {
+		font-weight: normal;
+	}
+}
+
+@media (max-width: 992px) {
+	.bold-tablet {
+		font-weight: bold;
+	}
+	.bold-default, .bold-large, .bold-mobile {
+		font-weight: normal;
+	}
+}
+
+@media (max-width: 414px) {
+	.bold-mobile {
+		font-weight: bold;
+	}
+	.bold-default, .bold-tablet, .bold-large {
+		font-weight: normal;
+	}
 }
