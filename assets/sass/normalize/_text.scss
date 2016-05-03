@@ -1,0 +1,57 @@
+.dream {
+	font-size: 14px;
+	line-height: 18px;
+
+	hr {
+		height: 1px;
+		border: none;
+		background: #ccc;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 24px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	h5 {
+		font-size: 14px;
+	}
+
+	h6 {
+		font-size: 12px;
+	}
+
+	.text {
+		&-left {
+			text-align: left;
+		}
+		&-center {
+			text-align: center;
+		}
+		&-right {
+			text-align: right;
+		}
+		&-justify {
+			text-align: justify;
+		}
+		&-ellipsis {
+			white-space: nowrap;
+			display: block;
+			width: 100%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+
+}

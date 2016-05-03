@@ -30,7 +30,7 @@
 
 
 				<div id="grid-static">
-					<h2>Static Grid</h2>
+					<h3>Static Grid</h3>
 					
 					<div class="wrapper">
 						<p>Column 12</p>
@@ -63,7 +63,7 @@
 				</div>
 
 				<div id="grid-responsive" class="wrapper p-t-20">
-					<h2>Responsive Grid</h2>
+					<h3>Responsive Grid</h3>
 					
 					<div class="wrapper">
 						<div class="col-4 lg-3 md-6 sm-12 row-1 hard-center" bg-color="#eee">
@@ -83,28 +83,75 @@
 				<h1>Background</h1>
 
 				<div class="wrapper">
-					<div class="col-12 row-5 bg-fill hard-center bold" bg-image="assets/images/bg.jpg">
-						<span bg-color="rgba(0,0,0,0)" color="#fff">Background Image</span>
-					</div>
-					<div class="col-12">	
+					<div class="col-12">
 						<p>Below is code for make block with background image. Just type <code class="code">bg-image="<i>image_path</i>"</code> and give class <code class="code">bg-fill</code> for make image view better.</p>
 						<pre class="pre">
 							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="bg-fill" bg-image="..."</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
 						</pre>
 					</div>
+					<div class="col-6 row-5 bg-fill hard-center bold" bg-image="assets/images/bg.jpg">
+						<span color="#fff">Background Image</span>
+					</div>
+					<div class="col-6 row-5 bg-fill hard-center bold" bg-image="assets/images/bg-2.jpg">
+						<span color="#333">Background Image</span>
+					</div>
 				</div>
 
 				<div class="wrapper p-t-25">
-					<div class="col-12 row-5 hard-center bold" bg-color="#3498db">
-						<span bg-color="#3498db" color="#fff">Background Color</span>
-					</div>
-					
 					<div class="col-12">
 						<p>And below is code for make block with background color. Just type <code class="code">bg-color="<i>your_color</i>"</code>. This code is support all color types like hex, rgb, rgba, or everything value that available in CSS.</p>
 						<pre class="pre">
 							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51"> bg-color="..."</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
 						</pre>
 					</div>
+
+					<div class="col-6 row-5 hard-center bold" bg-color="#3498db">
+						<span color="#fff">Blue #3498db</span>
+					</div>
+					<div class="col-6 row-5 hard-center bold" bg-color="#2ecc71">
+						<span color="#fff">Green #2ecc71</span>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div id="aligment" class="wrapper p-t-50">
+
+				<h1>Text</h1>
+
+				<div class="wrapper">	
+					<p>Dream Framework can manage your text with easy. You can use aligment classes, transformation classes, etc.
+					<pre class="pre">
+						<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="text-*"</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+					</pre>
+					<br>
+				</div>
+
+
+
+				<div id="text-aligment">
+
+					<div class="wrapper">
+						<h3>Aligment Classes</h3>
+
+						<div class="col-12">
+							<p>Easily realign text to components with text alignment classes.</p>
+						</div>
+
+						<div class="col-12">
+							<p class="text-left">.text-left</p>
+							<hr>
+							<p class="text-center">.text-center</p>
+							<hr>
+							<p class="text-right">.text-right</p>
+							<hr>
+							<p class="text-justify">.text-justify <br><span size="18px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque molestiae illum ab laudantium ipsam, quia non, aspernatur exercitationem pariatur labore odit quidem officia eius expedita deserunt, beatae culpa sapiente perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quaerat distinctio ipsam itaque laboriosam iure, voluptate minus neque ea quia!</span></p>
+							<hr>
+							<p class="text-ellipsis">.text-ellipsis <br><span size="18px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque molestiae illum ab laudantium ipsam, quia non, aspernatur exercitationem pariatur labore odit quidem officia eius expedita deserunt, beatae culpa sapiente perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quaerat distinctio ipsam itaque laboriosam iure, voluptate minus neque ea quia!</span></p>
+						</div>
+					</div>
+
 				</div>
 
 			</div>
