@@ -257,6 +257,34 @@ th {
 .dream h6 {
   font-size: 12px;
 }
+.dream blockquote {
+  margin: 0 !important;
+  border-left: 5px solid #eee;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.dream blockquote .quote {
+  font-family: "Georgia";
+  font-style: italic;
+  font-size: 20px;
+  color: #999;
+}
+.dream blockquote author {
+  margin-left: 10px;
+}
+.dream blockquote author:before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #999;
+  float: left;
+  margin-top: 7px;
+}
+.dream blockquote author i {
+  font-weight: bold;
+}
 .dream .text-left {
   text-align: left;
 }
@@ -957,9 +985,6 @@ th {
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-.dream .container.container-small {
-  max-width: 960px;
 }
 
 .dream .wrapper {
