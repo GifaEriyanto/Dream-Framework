@@ -11251,6 +11251,10 @@ window.Modernizr = (function( window, document, undefined ) {
 $(".dream *").each(function() {
 
 	// Background Generator
+		var container = $(this).attr("container");
+		$('[container="' + container + '"]').css("max-width", container);
+
+	// Background Generator
 		var bgColor = $(this).attr("bg-color");
 		$('[bg-color="' + bgColor + '"]').css("background-color", bgColor);
 
