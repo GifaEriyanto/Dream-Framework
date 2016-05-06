@@ -23,7 +23,7 @@
 				<div class="wrapper">	
 					<p>Dream Framework is available for responsive grid system. Default grid is using class <code class="code">.col-*</code>. If you want to make custom view for all device, just give class <code class="code">.sm-*</code> for mobile view, <code class="code">.md-*</code> for tablet view, and <code class="code">.lg-*</code> for large desktop resolution (> 1440px);</p>
 					<pre class="pre">
-						<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="col-*"</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+						<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="col-*"</span>&gt;&lt;/<span color="#F1327C">div</span>&gt;</code>
 					</pre>
 					<br>
 				</div>
@@ -34,31 +34,31 @@
 					
 					<div class="wrapper">
 						<p>Column 12</p>
-						<div class="col-12 row-1 hard-center" bg-color="#eee">.col-12</div>
+						<div class="col-12 row-1 vh-center" bg-color="#eee">.col-12</div>
 					</div>
 
 					<div class="wrapper">
 						<p>Column 6</p>
-						<div class="col-6 row-1 hard-center" bg-color="#ddd">.col-6</div>
-						<div class="col-6 row-1 hard-center" bg-color="#eee">.col-6</div>
+						<div class="col-6 row-1 vh-center" bg-color="#ddd">.col-6</div>
+						<div class="col-6 row-1 vh-center" bg-color="#eee">.col-6</div>
 					</div>
 
 					<div class="wrapper">
 						<p>Column 3</p>
-						<div class="col-3 row-1 hard-center" bg-color="#eee">.col-3</div>
-						<div class="col-3 row-1 hard-center" bg-color="#ddd">.col-3</div>
-						<div class="col-3 row-1 hard-center" bg-color="#eee">.col-3</div>
-						<div class="col-3 row-1 hard-center" bg-color="#ddd">.col-3</div>
+						<div class="col-3 row-1 vh-center" bg-color="#eee">.col-3</div>
+						<div class="col-3 row-1 vh-center" bg-color="#ddd">.col-3</div>
+						<div class="col-3 row-1 vh-center" bg-color="#eee">.col-3</div>
+						<div class="col-3 row-1 vh-center" bg-color="#ddd">.col-3</div>
 					</div>
 
 					<div class="wrapper">
 						<p>Column 2</p>
-						<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
-						<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
-						<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
-						<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
-						<div class="col-2 row-1 hard-center" bg-color="#ddd">.col-2</div>
-						<div class="col-2 row-1 hard-center" bg-color="#eee">.col-2</div>
+						<div class="col-2 row-1 vh-center" bg-color="#ddd">.col-2</div>
+						<div class="col-2 row-1 vh-center" bg-color="#eee">.col-2</div>
+						<div class="col-2 row-1 vh-center" bg-color="#ddd">.col-2</div>
+						<div class="col-2 row-1 vh-center" bg-color="#eee">.col-2</div>
+						<div class="col-2 row-1 vh-center" bg-color="#ddd">.col-2</div>
+						<div class="col-2 row-1 vh-center" bg-color="#eee">.col-2</div>
 					</div>
 				</div>
 
@@ -66,11 +66,11 @@
 					<h3>Responsive Grid</h3>
 					
 					<div class="wrapper">
-						<div class="col-4 lg-3 md-6 sm-12 row-1 hard-center" bg-color="#eee">
+						<div class="col-4 lg-3 md-6 sm-12 row-1 vh-center" bg-color="#eee">
 							<span class="bold-default">.col-4</span>&nbsp;
-							<span class="bold-large">.large-3</span>&nbsp;
-							<span class="bold-tablet">.tablet-6</span>&nbsp;
-							<span class="bold-mobile">.mobile-12</span>
+							<span class="bold-large">.lg-3</span>&nbsp;
+							<span class="bold-tablet">.md-6</span>&nbsp;
+							<span class="bold-mobile">.sm-12</span>
 						</div>
 					</div>
 				</div>
@@ -81,14 +81,43 @@
 					<div class="wrapper">
 						<p>Container is class for make your website like in a box. The default value is <code class="code">1140px</code>. If you want to custom it, just add property <code class="code">container="<i>width_value</i>"</code>.</p>
 						<pre class="pre">
-							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="container"</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="container"</span>&gt;&lt;/<span color="#F1327C">div</span>&gt;</code>
 							<br>
 							<br>
 							<span color="#898B80">For Custom Width :</span>
 							<br>
 							<br>
-							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="container" container="960px"</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="container" container="960px"</span>&gt;&lt;/<span color="#F1327C">div</span>&gt;</code>
 						</pre>
+					</div>
+				</div>
+
+				<div id="grid-container" class="wrapper p-t-20">
+					<h3>Row for Height</h3>
+					
+					<div class="wrapper">
+						<p>Row in here is value for height the element. Each row have 50px value for height and available from <code class="code">.row-1</code> until <code class="code">.row-20</code>.</p>
+						<pre class="pre">
+							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="row-1"</span>&gt;&lt;/<span color="#F1327C">div</span>&gt;</code>
+						</pre>
+						<p><i>Example:</i></p>
+						<div class="wrapper">
+							<div class="col-3">
+								<div class="row-4 vh-center" bg-color="#eee">.row-4</div>
+							</div>
+							<div class="col-3">
+								<div class="row-3 vh-center" bg-color="#ddd">.row-3</div>
+								<div class="row-1 vh-center" bg-color="#ccc">.row-1</div>
+							</div>
+							<div class="col-3">
+								<div class="row-2 vh-center" bg-color="#eee">.row-2</div>
+								<div class="row-2 vh-center" bg-color="#f5f5f5">.row-2</div>
+							</div>
+							<div class="col-3">
+								<div class="row-1 vh-center" bg-color="#ddd">.row-1</div>
+								<div class="row-3 vh-center" bg-color="#ccc">.row-3</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -103,25 +132,29 @@
 					<div class="col-12">
 						<p>Below is code for make block with background image. Just type <code class="code">bg-image="<i>image_path</i>"</code> and give class <code class="code">bg-fill</code> for make image view better.</p>
 						<pre class="pre">
-							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="bg-fill" bg-image="..."</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="bg-fill" bg-image="..."</span>&gt;&lt;/<span color="#F1327C">div</span>&gt;</code>
 						</pre>
+						<br>
 					</div>
-					<div class="col-6 row-5 bg-fill hard-center bold" bg-image="assets/images/bg.jpg"></div>
-					<div class="col-6 row-5 bg-fill hard-center bold" bg-image="assets/images/bg-2.jpg"></div>
+					<p><i>Example:</i></p>
+					<div class="col-6 row-5 bg-fill vh-center f-b" bg-image="assets/images/bg.jpg"></div>
+					<div class="col-6 row-5 bg-fill vh-center f-b" bg-image="assets/images/bg-2.jpg"></div>
 				</div>
 
 				<div class="wrapper p-t-25">
 					<div class="col-12">
 						<p>And below is code for make block with background color. Just type <code class="code">bg-color="<i>your_color</i>"</code>. This code is support all color types like hex, rgb, rgba, or everything value that available in CSS.</p>
 						<pre class="pre">
-							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51"> bg-color="..."</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+							<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51"> bg-color="..."</span>&gt;&lt;/<span color="#F1327C">div</span>&gt;</code>
 						</pre>
+						<br>
 					</div>
 
-					<div class="col-6 row-5 hard-center bold" bg-color="#3498db">
+					<p><i>Example:</i></p>
+					<div class="col-6 row-5 vh-center f-b" bg-color="#3498db">
 						<span color="#fff">Blue #3498db</span>
 					</div>
-					<div class="col-6 row-5 hard-center bold" bg-color="#2ecc71">
+					<div class="col-6 row-5 vh-center f-b" bg-color="#2ecc71">
 						<span color="#fff">Green #2ecc71</span>
 					</div>
 				</div>
@@ -136,15 +169,14 @@
 				<div class="wrapper">	
 					<p>Dream Framework can manage your text with easy. You can use aligment classes, transformation classes, etc.
 					<pre class="pre">
-						<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="text-*"</span>&gt;&lt;<span color="#F1327C">div</span>&gt;</code>
+						<code>&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="text-*"</span>&gt;&lt;/<span color="#F1327C">div</span>&gt;</code>
 					</pre>
 					<br>
 				</div>
 
 
 
-				<div id="text-aligment">
-
+				<div id="typography-aligment">
 					<div class="wrapper">
 						<h3>Aligment</h3>
 
@@ -162,22 +194,62 @@
 							<p class="text-justify">.text-justify <br><span size="18px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque molestiae illum ab laudantium ipsam, quia non, aspernatur exercitationem pariatur labore odit quidem officia eius expedita deserunt, beatae culpa sapiente perferendis.</span></p>
 						</div>
 					</div>
+				</div>
 
+				<div id="typography-ellipsis">
 					<div class="wrapper p-t-20">
 						<h3>Ellipsis</h3>
+
+						<div class="col-12">
+							<p>Easily limit to one line with ellipsis class.</p>
+						</div>
 						
 						<div class="col-md-12">
 							<p class="text-ellipsis">.text-ellipsis <br><span size="18px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque molestiae illum ab laudantium ipsam, quia non, aspernatur exercitationem pariatur labore odit quidem officia eius expedita deserunt, beatae culpa sapiente perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quaerat distinctio ipsam itaque laboriosam iure, voluptate minus neque ea quia!</span></p>
 							<hr class="m-0">
+						</div>		
+					</div>
+				</div>
+
+				<div id="typography-font-style">
+					<div class="wrapper p-t-20">
+						<h3>Font Style</h3>
+
+						<div class="col-12">
+							<p>Easily styling text with font class.</p>
 						</div>
 						
-					</div>
+						<div class="col-md-12">
+							<p>.f-i <br><span class="f-i" size="18px">Font Italic</span></p>
+							<hr class="m-0">
 
+							<p>.f-b <br><span class="f-b" size="18px">Font Bold</span></p>
+							<hr class="m-0">
+
+							<p>.f-u <br><span class="f-u" size="18px">Font Underline</span></p>
+							<hr class="m-0">
+						</div>		
+					</div>
+				</div>
+
+				<div id="typography-blockquote">
 					<div class="wrapper p-t-20">
 						<h3>Blockquote</h3>
 						
 						<div class="col-md-12">
 							<p>For quoting blocks of content from another source within your document.</p>
+
+							<pre class="pre">
+								<code>
+									&lt;<span color="#F1327C">blockquote</span>&gt;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span color="#F1327C">div</span> <span color="#9CDC51">class="quote"</span>&gt;<br>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span color="#F1327C">p</span>&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/<span color="#F1327C">p</span>&gt;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span color="#F1327C">div</span>&gt;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span color="#F1327C">author</span>&gt;Someone famous in &lt;<span color="#F1327C">i</span>&gt;Source Title&lt;/<span color="#F1327C">i</span>&gt;&lt;/<span color="#F1327C">author</span>&gt;<br>
+									&lt;/<span color="#F1327C">blockquote</span>&gt;
+								</code>
+							</pre>
+							<br>
 							<blockquote>
 								<div class="quote">
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -185,9 +257,7 @@
 								<author>Someone famous in <i>Source Title</i></author>
 							</blockquote>
 						</div>
-						
 					</div>
-
 				</div>
 
 			</div>

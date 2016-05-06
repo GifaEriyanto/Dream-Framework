@@ -4,25 +4,36 @@
 		clear: both;
 	}
 
-	// Align
+	// Object Align
 	.v-center {
 		height: 100%;
 		display: flex;
 		align-items: center;
 	}
 
-	.center {
-		text-align: center;
+	.h-center {
+		display: flex;
+		justify-content: center;
 	}
 
-	.hard-center {
+	.vh-center {
 		@extend .v-center;
 		justify-content: center;
 	}
 
-	// Font Weight
-	.bold {
-		font-weight: bold;
+	// Font Style
+	.f- {
+		&i {
+			font-style: italic;
+		}
+
+		&u {
+			text-decoration: underline;
+		}
+
+		&b {
+			font-weight: bold;
+		}
 	}
 
 	// HTML viewer
@@ -42,54 +53,6 @@
 		padding: 0px 3px;
 		background: #eee;
 		border-radius: 2px;
-	}
-
-	// Margin
-	$i: 10;
-	@while $i > 0 {
-		$x: $i * 5;
-		.m {
-			&-#{$x} {
-				margin: #{$x}px;
-			}
-			&-t-#{$x} {
-				margin-top: #{$x}px;
-			}
-			&-b-#{$x} {
-				margin-bottom: #{$x}px;
-			}
-			&-l-#{$x} {
-				margin-left: #{$x}px;
-			}
-			&-r-#{$x} {
-				margin-right: #{$x}px;
-			}
-		}
-		$i: $i - 1;
-	}
-
-	// Padding
-	$i: 10;
-	@while $i > 0 {
-		$x: $i * 5;
-		.p {
-			&-#{$x} {
-				padding: #{$x}px;
-			}
-			&-t-#{$x} {
-				padding-top: #{$x}px;
-			}
-			&-b-#{$x} {
-				padding-bottom: #{$x}px;
-			}
-			&-l-#{$x} {
-				padding-left: #{$x}px;
-			}
-			&-r-#{$x} {
-				padding-right: #{$x}px;
-			}
-		}
-		$i: $i - 1;
 	}
 
 }

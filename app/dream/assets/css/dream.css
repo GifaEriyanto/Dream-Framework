@@ -308,7 +308,7 @@ th {
 .dream .clear {
   clear: both;
 }
-.dream .v-center, .dream .hard-center {
+.dream .v-center, .dream .vh-center {
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -319,16 +319,29 @@ th {
       -ms-flex-align: center;
           align-items: center;
 }
-.dream .center {
-  text-align: center;
-}
-.dream .hard-center {
+.dream .h-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-.dream .bold {
+.dream .vh-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.dream .f-i {
+  font-style: italic;
+}
+.dream .f-u {
+  text-decoration: underline;
+}
+.dream .f-b {
   font-weight: bold;
 }
 .dream .pre {
@@ -346,306 +359,6 @@ th {
   padding: 0px 3px;
   background: #eee;
   border-radius: 2px;
-}
-.dream .m-50 {
-  margin: 50px;
-}
-.dream .m-t-50 {
-  margin-top: 50px;
-}
-.dream .m-b-50 {
-  margin-bottom: 50px;
-}
-.dream .m-l-50 {
-  margin-left: 50px;
-}
-.dream .m-r-50 {
-  margin-right: 50px;
-}
-.dream .m-45 {
-  margin: 45px;
-}
-.dream .m-t-45 {
-  margin-top: 45px;
-}
-.dream .m-b-45 {
-  margin-bottom: 45px;
-}
-.dream .m-l-45 {
-  margin-left: 45px;
-}
-.dream .m-r-45 {
-  margin-right: 45px;
-}
-.dream .m-40 {
-  margin: 40px;
-}
-.dream .m-t-40 {
-  margin-top: 40px;
-}
-.dream .m-b-40 {
-  margin-bottom: 40px;
-}
-.dream .m-l-40 {
-  margin-left: 40px;
-}
-.dream .m-r-40 {
-  margin-right: 40px;
-}
-.dream .m-35 {
-  margin: 35px;
-}
-.dream .m-t-35 {
-  margin-top: 35px;
-}
-.dream .m-b-35 {
-  margin-bottom: 35px;
-}
-.dream .m-l-35 {
-  margin-left: 35px;
-}
-.dream .m-r-35 {
-  margin-right: 35px;
-}
-.dream .m-30 {
-  margin: 30px;
-}
-.dream .m-t-30 {
-  margin-top: 30px;
-}
-.dream .m-b-30 {
-  margin-bottom: 30px;
-}
-.dream .m-l-30 {
-  margin-left: 30px;
-}
-.dream .m-r-30 {
-  margin-right: 30px;
-}
-.dream .m-25 {
-  margin: 25px;
-}
-.dream .m-t-25 {
-  margin-top: 25px;
-}
-.dream .m-b-25 {
-  margin-bottom: 25px;
-}
-.dream .m-l-25 {
-  margin-left: 25px;
-}
-.dream .m-r-25 {
-  margin-right: 25px;
-}
-.dream .m-20 {
-  margin: 20px;
-}
-.dream .m-t-20 {
-  margin-top: 20px;
-}
-.dream .m-b-20 {
-  margin-bottom: 20px;
-}
-.dream .m-l-20 {
-  margin-left: 20px;
-}
-.dream .m-r-20 {
-  margin-right: 20px;
-}
-.dream .m-15 {
-  margin: 15px;
-}
-.dream .m-t-15 {
-  margin-top: 15px;
-}
-.dream .m-b-15 {
-  margin-bottom: 15px;
-}
-.dream .m-l-15 {
-  margin-left: 15px;
-}
-.dream .m-r-15 {
-  margin-right: 15px;
-}
-.dream .m-10 {
-  margin: 10px;
-}
-.dream .m-t-10 {
-  margin-top: 10px;
-}
-.dream .m-b-10 {
-  margin-bottom: 10px;
-}
-.dream .m-l-10 {
-  margin-left: 10px;
-}
-.dream .m-r-10 {
-  margin-right: 10px;
-}
-.dream .m-5 {
-  margin: 5px;
-}
-.dream .m-t-5 {
-  margin-top: 5px;
-}
-.dream .m-b-5 {
-  margin-bottom: 5px;
-}
-.dream .m-l-5 {
-  margin-left: 5px;
-}
-.dream .m-r-5 {
-  margin-right: 5px;
-}
-.dream .p-50 {
-  padding: 50px;
-}
-.dream .p-t-50 {
-  padding-top: 50px;
-}
-.dream .p-b-50 {
-  padding-bottom: 50px;
-}
-.dream .p-l-50 {
-  padding-left: 50px;
-}
-.dream .p-r-50 {
-  padding-right: 50px;
-}
-.dream .p-45 {
-  padding: 45px;
-}
-.dream .p-t-45 {
-  padding-top: 45px;
-}
-.dream .p-b-45 {
-  padding-bottom: 45px;
-}
-.dream .p-l-45 {
-  padding-left: 45px;
-}
-.dream .p-r-45 {
-  padding-right: 45px;
-}
-.dream .p-40 {
-  padding: 40px;
-}
-.dream .p-t-40 {
-  padding-top: 40px;
-}
-.dream .p-b-40 {
-  padding-bottom: 40px;
-}
-.dream .p-l-40 {
-  padding-left: 40px;
-}
-.dream .p-r-40 {
-  padding-right: 40px;
-}
-.dream .p-35 {
-  padding: 35px;
-}
-.dream .p-t-35 {
-  padding-top: 35px;
-}
-.dream .p-b-35 {
-  padding-bottom: 35px;
-}
-.dream .p-l-35 {
-  padding-left: 35px;
-}
-.dream .p-r-35 {
-  padding-right: 35px;
-}
-.dream .p-30 {
-  padding: 30px;
-}
-.dream .p-t-30 {
-  padding-top: 30px;
-}
-.dream .p-b-30 {
-  padding-bottom: 30px;
-}
-.dream .p-l-30 {
-  padding-left: 30px;
-}
-.dream .p-r-30 {
-  padding-right: 30px;
-}
-.dream .p-25 {
-  padding: 25px;
-}
-.dream .p-t-25 {
-  padding-top: 25px;
-}
-.dream .p-b-25 {
-  padding-bottom: 25px;
-}
-.dream .p-l-25 {
-  padding-left: 25px;
-}
-.dream .p-r-25 {
-  padding-right: 25px;
-}
-.dream .p-20 {
-  padding: 20px;
-}
-.dream .p-t-20 {
-  padding-top: 20px;
-}
-.dream .p-b-20 {
-  padding-bottom: 20px;
-}
-.dream .p-l-20 {
-  padding-left: 20px;
-}
-.dream .p-r-20 {
-  padding-right: 20px;
-}
-.dream .p-15 {
-  padding: 15px;
-}
-.dream .p-t-15 {
-  padding-top: 15px;
-}
-.dream .p-b-15 {
-  padding-bottom: 15px;
-}
-.dream .p-l-15 {
-  padding-left: 15px;
-}
-.dream .p-r-15 {
-  padding-right: 15px;
-}
-.dream .p-10 {
-  padding: 10px;
-}
-.dream .p-t-10 {
-  padding-top: 10px;
-}
-.dream .p-b-10 {
-  padding-bottom: 10px;
-}
-.dream .p-l-10 {
-  padding-left: 10px;
-}
-.dream .p-r-10 {
-  padding-right: 10px;
-}
-.dream .p-5 {
-  padding: 5px;
-}
-.dream .p-t-5 {
-  padding-top: 5px;
-}
-.dream .p-b-5 {
-  padding-bottom: 5px;
-}
-.dream .p-l-5 {
-  padding-left: 5px;
-}
-.dream .p-r-5 {
-  padding-right: 5px;
 }
 
 .dream .m-50 {
@@ -829,6 +542,14 @@ th {
 .dream .p-r-50 {
   padding-right: 50px;
 }
+.dream .p-v-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.dream .p-h-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .dream .p-45 {
   padding: 45px;
 }
@@ -842,6 +563,14 @@ th {
   padding-left: 45px;
 }
 .dream .p-r-45 {
+  padding-right: 45px;
+}
+.dream .p-v-45 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.dream .p-h-45 {
+  padding-left: 45px;
   padding-right: 45px;
 }
 .dream .p-40 {
@@ -859,6 +588,14 @@ th {
 .dream .p-r-40 {
   padding-right: 40px;
 }
+.dream .p-v-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.dream .p-h-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .dream .p-35 {
   padding: 35px;
 }
@@ -872,6 +609,14 @@ th {
   padding-left: 35px;
 }
 .dream .p-r-35 {
+  padding-right: 35px;
+}
+.dream .p-v-35 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.dream .p-h-35 {
+  padding-left: 35px;
   padding-right: 35px;
 }
 .dream .p-30 {
@@ -889,6 +634,14 @@ th {
 .dream .p-r-30 {
   padding-right: 30px;
 }
+.dream .p-v-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.dream .p-h-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .dream .p-25 {
   padding: 25px;
 }
@@ -902,6 +655,14 @@ th {
   padding-left: 25px;
 }
 .dream .p-r-25 {
+  padding-right: 25px;
+}
+.dream .p-v-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.dream .p-h-25 {
+  padding-left: 25px;
   padding-right: 25px;
 }
 .dream .p-20 {
@@ -919,6 +680,14 @@ th {
 .dream .p-r-20 {
   padding-right: 20px;
 }
+.dream .p-v-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dream .p-h-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .dream .p-15 {
   padding: 15px;
 }
@@ -932,6 +701,14 @@ th {
   padding-left: 15px;
 }
 .dream .p-r-15 {
+  padding-right: 15px;
+}
+.dream .p-v-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.dream .p-h-15 {
+  padding-left: 15px;
   padding-right: 15px;
 }
 .dream .p-10 {
@@ -949,6 +726,14 @@ th {
 .dream .p-r-10 {
   padding-right: 10px;
 }
+.dream .p-v-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dream .p-h-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .dream .p-5 {
   padding: 5px;
 }
@@ -964,6 +749,14 @@ th {
 .dream .p-r-5 {
   padding-right: 5px;
 }
+.dream .p-v-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.dream .p-h-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .dream .p-0 {
   padding: 0px;
 }
@@ -977,6 +770,14 @@ th {
   padding-left: 0px;
 }
 .dream .p-r-0 {
+  padding-right: 0px;
+}
+.dream .p-v-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.dream .p-h-0 {
+  padding-left: 0px;
   padding-right: 0px;
 }
 
@@ -1255,326 +1056,6 @@ th {
     float: left;
   }
 }
-.dream .row-100 {
-  height: calc(50px * 100);
-  overflow: auto;
-}
-.dream .row-99 {
-  height: calc(50px * 99);
-  overflow: auto;
-}
-.dream .row-98 {
-  height: calc(50px * 98);
-  overflow: auto;
-}
-.dream .row-97 {
-  height: calc(50px * 97);
-  overflow: auto;
-}
-.dream .row-96 {
-  height: calc(50px * 96);
-  overflow: auto;
-}
-.dream .row-95 {
-  height: calc(50px * 95);
-  overflow: auto;
-}
-.dream .row-94 {
-  height: calc(50px * 94);
-  overflow: auto;
-}
-.dream .row-93 {
-  height: calc(50px * 93);
-  overflow: auto;
-}
-.dream .row-92 {
-  height: calc(50px * 92);
-  overflow: auto;
-}
-.dream .row-91 {
-  height: calc(50px * 91);
-  overflow: auto;
-}
-.dream .row-90 {
-  height: calc(50px * 90);
-  overflow: auto;
-}
-.dream .row-89 {
-  height: calc(50px * 89);
-  overflow: auto;
-}
-.dream .row-88 {
-  height: calc(50px * 88);
-  overflow: auto;
-}
-.dream .row-87 {
-  height: calc(50px * 87);
-  overflow: auto;
-}
-.dream .row-86 {
-  height: calc(50px * 86);
-  overflow: auto;
-}
-.dream .row-85 {
-  height: calc(50px * 85);
-  overflow: auto;
-}
-.dream .row-84 {
-  height: calc(50px * 84);
-  overflow: auto;
-}
-.dream .row-83 {
-  height: calc(50px * 83);
-  overflow: auto;
-}
-.dream .row-82 {
-  height: calc(50px * 82);
-  overflow: auto;
-}
-.dream .row-81 {
-  height: calc(50px * 81);
-  overflow: auto;
-}
-.dream .row-80 {
-  height: calc(50px * 80);
-  overflow: auto;
-}
-.dream .row-79 {
-  height: calc(50px * 79);
-  overflow: auto;
-}
-.dream .row-78 {
-  height: calc(50px * 78);
-  overflow: auto;
-}
-.dream .row-77 {
-  height: calc(50px * 77);
-  overflow: auto;
-}
-.dream .row-76 {
-  height: calc(50px * 76);
-  overflow: auto;
-}
-.dream .row-75 {
-  height: calc(50px * 75);
-  overflow: auto;
-}
-.dream .row-74 {
-  height: calc(50px * 74);
-  overflow: auto;
-}
-.dream .row-73 {
-  height: calc(50px * 73);
-  overflow: auto;
-}
-.dream .row-72 {
-  height: calc(50px * 72);
-  overflow: auto;
-}
-.dream .row-71 {
-  height: calc(50px * 71);
-  overflow: auto;
-}
-.dream .row-70 {
-  height: calc(50px * 70);
-  overflow: auto;
-}
-.dream .row-69 {
-  height: calc(50px * 69);
-  overflow: auto;
-}
-.dream .row-68 {
-  height: calc(50px * 68);
-  overflow: auto;
-}
-.dream .row-67 {
-  height: calc(50px * 67);
-  overflow: auto;
-}
-.dream .row-66 {
-  height: calc(50px * 66);
-  overflow: auto;
-}
-.dream .row-65 {
-  height: calc(50px * 65);
-  overflow: auto;
-}
-.dream .row-64 {
-  height: calc(50px * 64);
-  overflow: auto;
-}
-.dream .row-63 {
-  height: calc(50px * 63);
-  overflow: auto;
-}
-.dream .row-62 {
-  height: calc(50px * 62);
-  overflow: auto;
-}
-.dream .row-61 {
-  height: calc(50px * 61);
-  overflow: auto;
-}
-.dream .row-60 {
-  height: calc(50px * 60);
-  overflow: auto;
-}
-.dream .row-59 {
-  height: calc(50px * 59);
-  overflow: auto;
-}
-.dream .row-58 {
-  height: calc(50px * 58);
-  overflow: auto;
-}
-.dream .row-57 {
-  height: calc(50px * 57);
-  overflow: auto;
-}
-.dream .row-56 {
-  height: calc(50px * 56);
-  overflow: auto;
-}
-.dream .row-55 {
-  height: calc(50px * 55);
-  overflow: auto;
-}
-.dream .row-54 {
-  height: calc(50px * 54);
-  overflow: auto;
-}
-.dream .row-53 {
-  height: calc(50px * 53);
-  overflow: auto;
-}
-.dream .row-52 {
-  height: calc(50px * 52);
-  overflow: auto;
-}
-.dream .row-51 {
-  height: calc(50px * 51);
-  overflow: auto;
-}
-.dream .row-50 {
-  height: calc(50px * 50);
-  overflow: auto;
-}
-.dream .row-49 {
-  height: calc(50px * 49);
-  overflow: auto;
-}
-.dream .row-48 {
-  height: calc(50px * 48);
-  overflow: auto;
-}
-.dream .row-47 {
-  height: calc(50px * 47);
-  overflow: auto;
-}
-.dream .row-46 {
-  height: calc(50px * 46);
-  overflow: auto;
-}
-.dream .row-45 {
-  height: calc(50px * 45);
-  overflow: auto;
-}
-.dream .row-44 {
-  height: calc(50px * 44);
-  overflow: auto;
-}
-.dream .row-43 {
-  height: calc(50px * 43);
-  overflow: auto;
-}
-.dream .row-42 {
-  height: calc(50px * 42);
-  overflow: auto;
-}
-.dream .row-41 {
-  height: calc(50px * 41);
-  overflow: auto;
-}
-.dream .row-40 {
-  height: calc(50px * 40);
-  overflow: auto;
-}
-.dream .row-39 {
-  height: calc(50px * 39);
-  overflow: auto;
-}
-.dream .row-38 {
-  height: calc(50px * 38);
-  overflow: auto;
-}
-.dream .row-37 {
-  height: calc(50px * 37);
-  overflow: auto;
-}
-.dream .row-36 {
-  height: calc(50px * 36);
-  overflow: auto;
-}
-.dream .row-35 {
-  height: calc(50px * 35);
-  overflow: auto;
-}
-.dream .row-34 {
-  height: calc(50px * 34);
-  overflow: auto;
-}
-.dream .row-33 {
-  height: calc(50px * 33);
-  overflow: auto;
-}
-.dream .row-32 {
-  height: calc(50px * 32);
-  overflow: auto;
-}
-.dream .row-31 {
-  height: calc(50px * 31);
-  overflow: auto;
-}
-.dream .row-30 {
-  height: calc(50px * 30);
-  overflow: auto;
-}
-.dream .row-29 {
-  height: calc(50px * 29);
-  overflow: auto;
-}
-.dream .row-28 {
-  height: calc(50px * 28);
-  overflow: auto;
-}
-.dream .row-27 {
-  height: calc(50px * 27);
-  overflow: auto;
-}
-.dream .row-26 {
-  height: calc(50px * 26);
-  overflow: auto;
-}
-.dream .row-25 {
-  height: calc(50px * 25);
-  overflow: auto;
-}
-.dream .row-24 {
-  height: calc(50px * 24);
-  overflow: auto;
-}
-.dream .row-23 {
-  height: calc(50px * 23);
-  overflow: auto;
-}
-.dream .row-22 {
-  height: calc(50px * 22);
-  overflow: auto;
-}
-.dream .row-21 {
-  height: calc(50px * 21);
-  overflow: auto;
-}
 .dream .row-20 {
   height: calc(50px * 20);
   overflow: auto;
@@ -1654,6 +1135,9 @@ th {
 .dream .row-1 {
   height: calc(50px * 1);
   overflow: auto;
+}
+.dream .row-full {
+  height: 100vh;
 }
 
 .dream .bg-fill {

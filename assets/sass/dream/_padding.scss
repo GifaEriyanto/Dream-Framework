@@ -20,6 +20,18 @@
 			&-r-#{$x} {
 				padding-right: #{$x}px;
 			}
+			&-v-#{$x} {
+				padding: {
+					top: #{$x}px;
+					bottom: #{$x}px;
+				}
+			}
+			&-h-#{$x} {
+				padding: {
+					left: #{$x}px;
+					right: #{$x}px;
+				}
+			}
 		}
 		$i: $i - 1;
 	}
