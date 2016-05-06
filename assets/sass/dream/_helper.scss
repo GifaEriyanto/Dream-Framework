@@ -55,4 +55,14 @@
 		border-radius: 2px;
 	}
 
+	// Line Height
+	$i: 10;
+	@while $i >= 0 {
+		$x: $i * 5;
+		.lh-#{$i} {
+			line-height: #{$x}px;
+		}
+		$i: $i - 1;
+	}
+
 }

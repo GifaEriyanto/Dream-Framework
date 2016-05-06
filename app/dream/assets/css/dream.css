@@ -360,6 +360,39 @@ th {
   background: #eee;
   border-radius: 2px;
 }
+.dream .lh-10 {
+  line-height: 50px;
+}
+.dream .lh-9 {
+  line-height: 45px;
+}
+.dream .lh-8 {
+  line-height: 40px;
+}
+.dream .lh-7 {
+  line-height: 35px;
+}
+.dream .lh-6 {
+  line-height: 30px;
+}
+.dream .lh-5 {
+  line-height: 25px;
+}
+.dream .lh-4 {
+  line-height: 20px;
+}
+.dream .lh-3 {
+  line-height: 15px;
+}
+.dream .lh-2 {
+  line-height: 10px;
+}
+.dream .lh-1 {
+  line-height: 5px;
+}
+.dream .lh-0 {
+  line-height: 0px;
+}
 
 .dream .button {
   padding: 15px 30px;
