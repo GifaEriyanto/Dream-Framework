@@ -11,6 +11,10 @@
 		.col-#{$i} {
 			width: calc(100% / 12 * #{$i});
 			float: left;
+			min-height: 1px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 		}
 		$i: $i - 1;
 	}
@@ -21,6 +25,10 @@
 			@media (min-width: 1441px) {
 				width: calc(100% / 12 * #{$i});
 				float: left;
+				min-height: 1px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
 			}
 		}
 		$i: $i - 1;
@@ -32,6 +40,10 @@
 			@media (max-width: 992px) {
 				width: calc(100% / 12 * #{$i});
 				float: left;
+				min-height: 1px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
 			}
 		}
 		$i: $i - 1;
@@ -43,6 +55,10 @@
 			@media (max-width: 414px) {
 				width: calc(100% / 12 * #{$i});
 				float: left;
+				min-height: 1px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
 			}
 		}
 		$i: $i - 1;
