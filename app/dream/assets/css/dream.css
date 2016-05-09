@@ -304,6 +304,9 @@ th {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.dream .text-uppercase {
+  text-transform: uppercase;
+}
 
 .dream .clear {
   clear: both;
@@ -810,8 +813,11 @@ th {
 
 .dream .container {
   max-width: 1170px;
+  min-height: 1px;
   width: 100%;
   margin: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-left: 15px;
   padding-right: 15px;
@@ -824,67 +830,106 @@ th {
 .dream .col-12 {
   width: calc(100% / 12 * 12);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-11 {
   width: calc(100% / 12 * 11);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-10 {
   width: calc(100% / 12 * 10);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-9 {
   width: calc(100% / 12 * 9);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-8 {
   width: calc(100% / 12 * 8);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-7 {
   width: calc(100% / 12 * 7);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-6 {
   width: calc(100% / 12 * 6);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-5 {
   width: calc(100% / 12 * 5);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-4 {
   width: calc(100% / 12 * 4);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-3 {
   width: calc(100% / 12 * 3);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-2 {
   width: calc(100% / 12 * 2);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .dream .col-1 {
   width: calc(100% / 12 * 1);
   float: left;
+  min-height: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (min-width: 1441px) {
   .dream .lg-12 {
     width: calc(100% / 12 * 12);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -892,6 +937,9 @@ th {
   .dream .lg-11 {
     width: calc(100% / 12 * 11);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -899,6 +947,9 @@ th {
   .dream .lg-10 {
     width: calc(100% / 12 * 10);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -906,6 +957,9 @@ th {
   .dream .lg-9 {
     width: calc(100% / 12 * 9);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -913,6 +967,9 @@ th {
   .dream .lg-8 {
     width: calc(100% / 12 * 8);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -920,6 +977,9 @@ th {
   .dream .lg-7 {
     width: calc(100% / 12 * 7);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -927,6 +987,9 @@ th {
   .dream .lg-6 {
     width: calc(100% / 12 * 6);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -934,6 +997,9 @@ th {
   .dream .lg-5 {
     width: calc(100% / 12 * 5);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -941,6 +1007,9 @@ th {
   .dream .lg-4 {
     width: calc(100% / 12 * 4);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -948,6 +1017,9 @@ th {
   .dream .lg-3 {
     width: calc(100% / 12 * 3);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -955,6 +1027,9 @@ th {
   .dream .lg-2 {
     width: calc(100% / 12 * 2);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -962,6 +1037,9 @@ th {
   .dream .lg-1 {
     width: calc(100% / 12 * 1);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -969,6 +1047,9 @@ th {
   .dream .md-12 {
     width: calc(100% / 12 * 12);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -976,6 +1057,9 @@ th {
   .dream .md-11 {
     width: calc(100% / 12 * 11);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -983,6 +1067,9 @@ th {
   .dream .md-10 {
     width: calc(100% / 12 * 10);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -990,6 +1077,9 @@ th {
   .dream .md-9 {
     width: calc(100% / 12 * 9);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -997,6 +1087,9 @@ th {
   .dream .md-8 {
     width: calc(100% / 12 * 8);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1004,6 +1097,9 @@ th {
   .dream .md-7 {
     width: calc(100% / 12 * 7);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1011,6 +1107,9 @@ th {
   .dream .md-6 {
     width: calc(100% / 12 * 6);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1018,6 +1117,9 @@ th {
   .dream .md-5 {
     width: calc(100% / 12 * 5);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1025,6 +1127,9 @@ th {
   .dream .md-4 {
     width: calc(100% / 12 * 4);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1032,6 +1137,9 @@ th {
   .dream .md-3 {
     width: calc(100% / 12 * 3);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1039,6 +1147,9 @@ th {
   .dream .md-2 {
     width: calc(100% / 12 * 2);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1046,6 +1157,9 @@ th {
   .dream .md-1 {
     width: calc(100% / 12 * 1);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1053,6 +1167,9 @@ th {
   .dream .sm-12 {
     width: calc(100% / 12 * 12);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1060,6 +1177,9 @@ th {
   .dream .sm-11 {
     width: calc(100% / 12 * 11);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1067,6 +1187,9 @@ th {
   .dream .sm-10 {
     width: calc(100% / 12 * 10);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1074,6 +1197,9 @@ th {
   .dream .sm-9 {
     width: calc(100% / 12 * 9);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1081,6 +1207,9 @@ th {
   .dream .sm-8 {
     width: calc(100% / 12 * 8);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1088,6 +1217,9 @@ th {
   .dream .sm-7 {
     width: calc(100% / 12 * 7);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1095,6 +1227,9 @@ th {
   .dream .sm-6 {
     width: calc(100% / 12 * 6);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1102,6 +1237,9 @@ th {
   .dream .sm-5 {
     width: calc(100% / 12 * 5);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1109,6 +1247,9 @@ th {
   .dream .sm-4 {
     width: calc(100% / 12 * 4);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1116,6 +1257,9 @@ th {
   .dream .sm-3 {
     width: calc(100% / 12 * 3);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1123,6 +1267,9 @@ th {
   .dream .sm-2 {
     width: calc(100% / 12 * 2);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1130,6 +1277,9 @@ th {
   .dream .sm-1 {
     width: calc(100% / 12 * 1);
     float: left;
+    min-height: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
@@ -1246,6 +1396,9 @@ th {
 .dream nav.nav-bar ul.menu.right {
   margin-right: 0;
   margin-left: auto;
+}
+.dream nav.nav-bar ul.menu.center {
+  margin: auto;
 }
 
 .dream .bg-fill {
